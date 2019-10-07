@@ -1,0 +1,2 @@
+il faudrait modifier le fichier /etc/hosts/ et y ajouer la ligne "46.19.122.85 intra.42.fr" 
+ mais ce fichier est en read only. C'est donc impossible pour nous.

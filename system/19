@@ -1,0 +1,9 @@
+it 's call deamons.
+
+You can get it with "ls /etc/init.d" or if you all the all list "ls /etc/rc*.d/"
+
+the list is : 
+alsa-utils    bluetooth         gdm3               network-manager  pppd-dns  speech-dispatcher  unattended-upgrades
+anacron       console-setup.sh  hwclock.sh         networking       procps    ssh                x11-common
+apparmor      cron              keyboard-setup.sh  plymouth         rsyslog   sudo
+avahi-daemon  dbus              kmod               plymouth-log     saned     udev

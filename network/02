@@ -1,0 +1,19 @@
+ifconfig | grep -A 7 "en0:"
+echo "
+-------------------------------------------------------------------------------
+"
+ifconfig | grep -A 7 "en0:" | grep "broadcast" | cut -d " " -f5,6
+echo "
+-------------------------------------------------------------------------------
+"
+ifconfig | grep -A 7 "en0:" | grep "inet " | cut -d " " -f2-4
+
+echo "
+-------------------------------------------------------------------------------
+Plutôt que d’avoir une address MAC pour la machine et une pour le réseau
+on a une adresse IP qui est en fait l'adresse du réseau ET de la machine.
+
+Nous allons en fait ajouter une information supplémentaire à l'adresse IP,
+le masque de sous-réseau. Et ces deux informations, adresse IP et masque,
+seront inséparables.C'est le masque qui va indiquer quelle est la partie
+réseau de l'adresse, et quelle est la partie machine."

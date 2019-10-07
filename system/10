@@ -1,0 +1,7 @@
+pour lister toutes les partitions existantes: 
+
+sudo fdisk -l
+
+pour lister toutes les partitions actives:
+
+df -h

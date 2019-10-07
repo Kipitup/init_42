@@ -1,0 +1,1 @@
+dig +noall +answer -x 10.11.11.12
